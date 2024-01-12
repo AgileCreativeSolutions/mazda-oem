@@ -1,0 +1,399 @@
+/* OEM Font Embed */
+@font-face {
+font-family: 'Theano Old Style';
+src: url(https://www.mazdausa.com/assets/theme/fonts/theano-regular/theanooldstyle-regular-webfont.woff2) format("woff2"), url(https://www.mazdausa.com/assets/theme/fonts/theano-regular/theanooldstyle-regular-webfont.woff) format("woff"), url(https://www.mazdausa.com/assets/theme/fonts/theano-regular/theanooldstyle-regular-webfont.eot) format("embedded-opentype")
+}
+
+@font-face {
+font-family: 'Mazda Type';
+font-style: normal;
+font-weight: 700;
+src: url(https://www.mazdausa.com/assets/theme/fonts/mazda-type/mazda-type-bold.woff2) format("woff2"), url(https://www.mazdausa.com/assets/theme/fonts/mazda-type/mazda-type-bold.woff) format("woff"), url(https://www.mazdausa.com/assets/theme/fonts/mazda-type/mazda-type-bold.eot) format("embedded-opentype")
+}
+
+@font-face {
+font-family: 'Mazda Type';
+font-style: italic;
+font-weight: 700;
+src: url(https://www.mazdausa.com/assets/theme/fonts/mazda-type/mazda-type-bold-italic.woff2) format("woff2"), url(https://www.mazdausa.com/assets/theme/fonts/mazda-type/mazda-type-bold-italic.woff) format("woff"), url(https://www.mazdausa.com/assets/theme/fonts/mazda-type/mazda-type-bold-italic.eot) format("embedded-opentype")
+}
+
+@font-face {
+font-family: 'Mazda Type';
+font-style: normal;
+font-weight: 500;
+src: url(https://www.mazdausa.com/assets/theme/fonts/mazda-type/mazda-type-medium.woff2) format("woff2"), url(https://www.mazdausa.com/assets/theme/fonts/mazda-type/mazda-type-medium.woff) format("woff"), url(https://www.mazdausa.com/assets/theme/fonts/mazda-type/mazda-type-medium.eot) format("embedded-opentype")
+}
+
+@font-face {
+font-family: 'Mazda Type';
+font-style: italic;
+font-weight: 500;
+src: url(https://www.mazdausa.com/assets/theme/fonts/mazda-type/mazda-type-medium-italic.woff2) format("woff2"), url(https://www.mazdausa.com/assets/theme/fonts/mazda-type/mazda-type-medium-italic.woff) format("woff"), url(https://www.mazdausa.com/assets/theme/fonts/mazda-type/mazda-type-medium-italic.eot) format("embedded-opentype")
+}
+
+@font-face {
+font-family: 'Mazda Type';
+font-style: italic;
+font-weight: 400;
+src: url(https://www.mazdausa.com/assets/theme/fonts/mazda-type/mazda-type-italic.woff2) format("woff2"), url(https://www.mazdausa.com/assets/theme/fonts/mazda-type/mazda-type-italic.woff) format("woff"), url(https://www.mazdausa.com/assets/theme/fonts/mazda-type/mazda-type-italic.eot) format("embedded-opentype")
+}
+
+@font-face {
+font-family: 'Mazda Type';
+font-style: normal;
+font-weight: 400;
+src: url(https://www.mazdausa.com/assets/theme/fonts/mazda-type/mazda-type-regular.woff2) format("woff2"), url(https://www.mazdausa.com/assets/theme/fonts/mazda-type/mazda-type-regular.woff) format("woff"), url(https://www.mazdausa.com/assets/theme/fonts/mazda-type/mazda-type-regular.eot) format("embedded-opentype")
+}
+/* OEM Font Embed */
+
+
+
+/* OEM Font */
+.acs-wrapper { 
+font-family: "Mazda Type", sans-serif;
+font-weight: 400;
+}
+/* OEM Font */
+
+
+
+/* Heading Tags */
+.acs-h1, .acs-h2, .acs-h3, .acs-h4, .acs-h5, .acs-h6 {
+font-family: "Mazda Type", sans-serif;
+font-weight: 500;
+line-height: 1.2;
+text-transform: uppercase;
+letter-spacing: clamp(3px, 4px, 7px)
+}
+
+.acs-h1 {
+font-size: 2rem;
+}
+
+.acs-h2 {
+font-size: 1.8rem;
+}
+
+.acs-h3 {
+font-size: 1.6rem;
+}
+
+.acs-h4 {
+font-size: 1.4rem;
+}
+
+.acs-h5 {
+font-size: 1.2rem;
+}
+
+.acs-h6 {
+font-size: 1.1rem;
+}
+
+/* Larger than phablet */
+@media (min-width: 575px) {
+.acs-h1 {
+font-size: 2.5rem !important;
+}
+
+.acs-h2 {
+font-size: 2.2rem !important;
+}
+
+.acs-h3 {
+font-size: 1.8rem !important;
+}
+
+.acs-h4 {
+font-size: 1.6rem !important;
+}
+
+.acs-h5 {
+font-size: 1.4rem !important;
+}
+
+.acs-h6 {
+font-size: 1.2rem !important;
+}
+}
+/* Heading Tags */
+
+
+
+/* OEM Font Variables */
+.acs-mazda-brand-rg {
+font-family: "Mazda Type";
+font-weight: 400;
+}
+
+.acs-mazda-brand-md {
+font-family: "Mazda Type"; 
+font-weight: 500;
+}
+
+.acs-mazda-brand-bd {
+font-family: "Mazda Type";
+font-weight: 700;
+}
+
+.acs-bold {
+font-family: var(--bold-font);   
+font-weight: 700;
+}
+/* OEM Font Variables */
+
+
+
+/* Variables */
+.acs-wrapper {
+--accent: #101010;
+--black: #000000; 
+--white: #ffffff; 
+--gray: #737373; 
+--gray2: #999999;
+--gray3: #d5d5d5;
+--gray4: #e7e7e7;
+--gray5: #f5f5f5;
+--dark: #101010;
+--dark2: #2b2b2b;
+--bold-font: "Mazda Type", sans-serif;
+}
+/* Variables */
+
+
+
+/* Text Colors */
+.acs-black {
+color: var(--black)
+}
+.acs-white {
+color: var(--white)
+}
+.acs-gray {
+color: var(--gray)
+}
+.acs-gray2 {
+color: var(--gray2)
+}
+.acs-gray3 {
+color: var(--gray3)
+}
+.acs-gray4 {
+color: var(--gray4)
+}
+.acs-gray5 {
+color: var(--gray4)
+}
+.acs-dark {
+color: var(--dark)
+}
+.acs-dark2 {
+color: var(--dark2)
+}
+/* Text Colors */
+
+
+
+/* Accent Colors */
+.acs-accent {
+color: var(--accent);
+}
+/* Accent Colors */
+
+
+
+/* BG Colors */
+.acs-bg-accent {
+--acs-bg-opacity: 1;
+background-color: var(--accent);
+background-color: rgba(16,16,16, var(--acs-bg-opacity))
+}
+.acs-bg-gray {
+--acs-bg-opacity: 1;
+background-color: var(--gray);
+background-color: rgba(115,115,115, var(--acs-bg-opacity))
+}
+.acs-bg-gray2 {
+--acs-bg-opacity: 1;
+background-color: var(--gray2);
+background-color: rgba(153,153,153, var(--acs-bg-opacity))
+}
+.acs-bg-gray3 {
+--acs-bg-opacity: 1;
+background-color: var(--gray3);
+background-color: rgba(213,213,213, var(--acs-bg-opacity))
+}
+.acs-bg-gray4 {
+--acs-bg-opacity: 1;
+background-color: var(--gray4);
+background-color: rgba(231,231,231, var(--acs-bg-opacity))
+}
+.acs-bg-gray5 {
+--acs-bg-opacity: 1;
+background-color: var(--gray5);
+background-color: rgba(245,245,245, var(--acs-bg-opacity))
+}
+.acs-bg-dark {
+--acs-bg-opacity: 1;
+background-color: var(--dark);
+background-color: rgba(16,16,16, var(--acs-bg-opacity))
+}
+.acs-bg-dark2 {
+--acs-bg-opacity: 1;
+background-color: var(--dark2);
+background-color: rgba(43,43,43, var(--acs-bg-opacity))
+}
+/* BG Colors */
+
+
+
+/* Link Accent */
+.acs-link-accent, .acs-link-accent2 {  
+font-weight: 700;
+font-size: 13px;
+letter-spacing: .2em;
+text-transform: uppercase;
+color: var(--gray2);
+text-decoration: none;
+position: relative;
+display: inline-block;
+border-bottom: solid 2px var(--gray2);
+padding-bottom: 6px;
+transition: .3s
+}
+
+.acs-link-accent {
+color: var(--gray2);
+border-bottom: solid 2px var(--gray2);
+}
+.acs-link-accent:hover {
+color: var(--dark);
+text-decoration: none;
+border-bottom: solid 2px var(--dark);
+padding-bottom: 3px;
+}
+
+.acs-link-accent2 {
+color: var(--gray2);
+border-bottom: solid 2px var(--gray2);
+}
+.acs-link-accent2:hover {
+color: var(--white);
+text-decoration: none;
+border-bottom: solid 2px var(--white);
+padding-bottom: 3px;
+}
+/* Link Accent */
+
+
+
+/* BUTTONS: START */
+/* Button 1 */
+.acs-button {
+background-color: var(--dark);
+color: var(--white);
+white-space: nowrap;
+transition: background-color .3s,border-color .3s,color .3s,opacity .3s,transform .3s,visibility 0s;
+transition-timing-function: cubic-bezier(.445,.05,.55,.95);
+-moz-font-feature-settings: 'liga' 0,'clig' 0;
+font-feature-settings: 'liga' 0,'clig' 0;
+font-size: 13px;
+border-radius: 3px;
+padding: 15px 18px;
+display: inline-block;
+font-weight: 700;
+letter-spacing: .2em;
+line-height: normal;
+text-align: center;
+text-transform: uppercase;
+-webkit-font-smoothing: antialiased;
+min-width: 170px;
+text-decoration: none;
+}
+.acs-button:hover {
+background-color: var(--gray2);
+}
+
+/* Button 2 */
+.acs-button2 {
+background-color: var(--white);
+color: var(--dark);
+white-space: nowrap;
+transition: background-color .3s,border-color .3s,color .3s,opacity .3s,transform .3s,visibility 0s;
+transition-timing-function: cubic-bezier(.445,.05,.55,.95);
+-moz-font-feature-settings: 'liga' 0,'clig' 0;
+font-feature-settings: 'liga' 0,'clig' 0;
+font-size: 13px;
+border-radius: 3px;
+padding: 15px 18px;
+display: inline-block;
+font-weight: 700;
+letter-spacing: .2em;
+line-height: normal;
+text-align: center;
+text-transform: uppercase;
+-webkit-font-smoothing: antialiased;
+min-width: 170px;
+text-decoration: none;
+}
+.acs-button2:hover {
+background-color: var(--gray2);
+}
+
+/* Button 3 */
+.acs-button3 {
+background-color: transparent;
+color: var(--gray2);
+border: solid 2px var(--gray2);
+white-space: nowrap;
+transition: background-color .3s,border-color .3s,color .3s,opacity .3s,transform .3s,visibility 0s;
+transition-timing-function: cubic-bezier(.445,.05,.55,.95);
+-moz-font-feature-settings: 'liga' 0,'clig' 0;
+font-feature-settings: 'liga' 0,'clig' 0;
+font-size: 13px;
+border-radius: 3px;
+padding: 13px 16px;
+display: inline-block;
+font-weight: 700;
+letter-spacing: .2em;
+line-height: normal;
+text-align: center;
+text-transform: uppercase;
+-webkit-font-smoothing: antialiased;
+min-width: 170px;
+text-decoration: none;
+}
+.acs-button3:hover {
+color: var(--white);
+border: solid 2px var(--white);
+}
+
+/* Button 4 */
+.acs-button4 {
+background-color: transparent;
+color: var(--dark);
+border: solid 2px var(--dark);
+white-space: nowrap;
+transition: background-color .3s,border-color .3s,color .3s,opacity .3s,transform .3s,visibility 0s;
+transition-timing-function: cubic-bezier(.445,.05,.55,.95);
+-moz-font-feature-settings: 'liga' 0,'clig' 0;
+font-feature-settings: 'liga' 0,'clig' 0;
+font-size: 13px;
+border-radius: 3px;
+padding: 13px 16px;
+display: inline-block;
+font-weight: 700;
+letter-spacing: .2em;
+line-height: normal;
+text-align: center;
+text-transform: uppercase;
+-webkit-font-smoothing: antialiased;
+min-width: 170px;
+text-decoration: none;
+}
+.acs-button4:hover {
+color: var(--gray2);
+border: solid 2px var(--gray2);
+}
+/* BUTTONS: END */
